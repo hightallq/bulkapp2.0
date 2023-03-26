@@ -1,0 +1,537 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Nunito;
+    overflow-x: hidden;
+}
+
+button {
+    font-weight: 700;
+}
+
+.purple-bg {
+    background: #7657B3;
+    background: -webkit-linear-gradient(bottom right, #7657B3, #C901FF);
+    background: -moz-linear-gradient(bottom right, #7657B3, #C901FF);
+    background: linear-gradient(to top left, #7657B3, #C901FF);
+}
+
+.purple-bg h1, h2, h3 {
+    color: white
+}
+
+.purple-bg p {
+    color: rgb(207, 206, 206)
+}
+
+.white-bg h1, h2, h3 {
+    color: rgb(10, 10, 10);
+}
+
+.white-bg p {
+    color: rgb(90, 88, 88)
+}
+
+/* ! HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav p {
+    padding: 0 30px;
+    font-weight: 900;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.nav p:hover {
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #fff,
+      0 0 82px #fff,
+      0 0 92px #fff,
+      0 0 102px #fff,
+      0 0 151px #fff;
+}
+
+/* ! MAIN: text with image(right) (purple bg) */
+
+.text-with-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 60px;
+    vertical-align: middle;
+}
+
+.text-button h1 {
+    font-size: 60px;
+}
+
+.text-button button {
+    margin-top: 50px;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.text-button {
+    width: 38%;
+    margin-top: 50px;
+}
+
+.img-to-text {
+    vertical-align: middle;
+}
+
+/* ! MAIN: cards with features */
+
+.cards-features {
+    padding: 125px 0;
+    text-align: center;
+}
+
+.cards-features h2{
+    font-size: 40px;
+}
+
+.cards-features p {
+    font-size: 15px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 120px 50px;
+}
+
+.card {
+    max-width: 250px;
+    margin: 0 10px;
+}
+
+/* ! MAIN: text with image(left) (white bg) */
+
+.gradient-button {
+    background: #7657B3;
+    background: -webkit-linear-gradient(bottom right, #7657B3, #C901FF);
+    background: -moz-linear-gradient(bottom right, #7657B3, #C901FF);
+    background: linear-gradient(to top left, #7657B3, #C901FF);
+    color: white;
+}
+
+
+/* ! MAIN: fake video */
+
+.pseudo-video {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 100px 0;
+    position: relative;
+}
+
+.rickroll-button {
+    min-width: 100px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.video {
+    position: relative;
+}
+
+/* ! MAIN: cards-price */
+
+.text-start {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.text-start h2 {
+    font-size: 35px;
+}
+
+.card-price {
+    margin: 0 40px;
+    width: 150%;
+}
+
+.flex-headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right-header {
+    font-size: 21px;
+}
+
+.main-price {
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-price p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.purchase-button {
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+    color: #7657B3;
+    color: -webkit-linear-gradient(bottom right, #7657B3, #C901FF);
+    color: -moz-linear-gradient(bottom right, #7657B3, #C901FF);
+    color: linear-gradient(to top left, #7657B3, #C901FF);
+}
+
+.purchase-button:hover {
+    background: #7657B3;
+    background: -webkit-linear-gradient(bottom right, #7657B3, #C901FF);
+    background: -moz-linear-gradient(bottom right, #7657B3, #C901FF);
+    background: linear-gradient(to top left, #7657B3, #C901FF);
+    color: white;
+}
+
+/* ! MAIN: screenshots */
+
+.screenshots {
+    padding: 0 0 100px 0;
+}
+
+.screens {
+    display: flex;
+    justify-content: center;
+}
+
+.screens img {
+    margin: 10px;
+}
+
+/* ! MAIN: authors */
+
+.authors {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.author {
+    display: flex;
+    width: 40%;
+}
+
+.author img {
+    max-width: 100px;
+}
+
+.speech {
+    margin: 0 20px;
+}
+
+/* ! MAIN: apps */
+
+.apps {
+    margin: 100px 0;
+}
+
+.apps-main {
+    padding: 70px 0;
+}
+
+.apps-text h2, p {
+    color: white;
+}
+
+.buttons-apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-app{
+    margin: 0 10px;
+    width: 230px;
+    height: 80px;
+    background: #7657B3;
+    background: -webkit-linear-gradient(bottom right, #7657B3, #C901FF);
+    background: -moz-linear-gradient(bottom right, #7657B3, #C901FF);
+    background: linear-gradient(to top left, #7657B3, #C901FF);
+    border: white 1px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.apple::before {
+    content: "\f179";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: white;
+    font-size: 45px;
+}
+
+.android::before {
+    content: "\f3ab";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: white;
+    font-size: 45px;
+}
+
+.descript-button {
+    color: white;
+    text-align: left;
+}
+
+.descript-button h3 {
+    font-size: 18px;
+    color: white;
+}
+
+/* ! MAIN: News */
+
+.news-methods {
+    margin: 150px 0;
+}
+
+.news {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-news {
+    width: 24%;
+    border: white 1px solid;
+}
+
+.main-article:hover h1 {
+    color: #7657B3;
+    cursor: pointer;
+}
+
+.data {
+    margin-left: 20px;
+}
+
+.reaction-article {
+    display: flex;
+    flex-direction: row;
+}
+
+.reaction-article a {
+    text-decoration: none;
+    margin: 10px 0;
+    text-indent: 10px;
+}
+
+.views {
+    content: "\f06e";
+    font-family: FontAwesome;
+    font-size: 20px;
+}
+
+.comments {
+    content: "\f27a";
+    font-family: FontAwesome;
+    font-size: 20px;
+}
+
+.repost {
+    content: "\f112";
+    font-family: FontAwesome;
+    font-size: 20px;
+}
+
+/* ! FOOTER: upper part */
+
+footer {
+    background-color: rgb(35, 35, 35);
+}
+
+.upper-part-footer {
+    display: flex;
+    margin: 100px 50px;
+    padding: 100px 0 25px 0;
+}
+
+.block-footer {
+    margin: 0 50px;
+}
+
+.text-footer {
+    color: rgb(199, 199, 199);
+}
+
+.text-footer p {
+    font-size: 15px;
+    color: rgb(150, 149, 149);
+}
+
+.top-products {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.top-products a {
+    text-decoration: none;
+    color: white;
+    margin: 5px 0; 
+    font-size: 15px;
+}
+
+.search {
+    width: 80%;
+}
+
+.search input {
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    text-indent: 15px;
+}
+
+.input-footer:focus-visible{
+    border: none;
+    outline: none;
+}
+
+.search-button {
+    width: 155px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    background: #7657B3;
+    background: -webkit-linear-gradient(bottom right, #7657B3, #C901FF);
+    background: -moz-linear-gradient(bottom right, #7657B3, #C901FF);
+    background: linear-gradient(to top left, #7657B3, #C901FF);
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    left: 680px;
+}
+
+.instagram {
+    width: 60%;
+    text-align: right;
+    color: white;
+}
+
+.stock-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.insta-img {
+    margin: 5px;
+}
+
+/* ! FOOTER: downer part */
+
+.down-part-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 100px 0 ;
+}
+
+.copyrights {
+    color: rgb(146, 142, 142);
+    margin-left: 100px;
+}
+
+.social-media {
+    display: flex;
+    margin: 0 10px 0 0;
+    margin-right: 100px;
+}
+
+.social-links {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(27, 26, 26);
+    border: none;    
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.social-links:hover {
+    background: #7657B3;
+    background: -webkit-linear-gradient(bottom right, #7657B3, #C901FF);
+    background: -moz-linear-gradient(bottom right, #7657B3, #C901FF);
+    background: linear-gradient(to top left, #7657B3, #C901FF);
+}
+
+.facebook::before {
+    content: "\f39e";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: white;
+    font-size: 15px;
+}
+
+.twitter::before {
+    content: "\f099";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: white;
+    font-size: 15px;
+}
+
+.dribbble::before {
+    content: "\f17d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: white;
+    font-size: 15px;
+}
+
+.behanse::before {
+    content: "\f1b4";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: white;
+    font-size: 15px;
+}
